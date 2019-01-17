@@ -26,22 +26,22 @@ namespace Shop.Items
 
 		public static bool operator <(Item item1, Item item2)
 		{
-			return item1._price < item2._price ? true : false;
+			return item1._price < item2._price;
 		}
 
 		public static bool operator >(Item item1, Item item2)
 		{
-			return item1._price > item2._price ? true : false;
+			return item1._price > item2._price;
 		}
 
 		public static bool operator ==(Item item1, Item item2)
 		{
-			return item1._price == item2._price ? true : false;
+			return item1._price == item2._price;
 		}
 
 		public static bool operator !=(Item item1, Item item2)
 		{
-			return item1._price != item2._price ? true : false;
+			return item1._price != item2._price;
 		}
 	}
 }
